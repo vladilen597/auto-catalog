@@ -1,0 +1,33 @@
+.media-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  .media-upload__title {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .media-upload__input-wrapper {
+    position: relative;
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    background-color: #fff;
+    .media-upload__input-title {
+      font-family: 'Montserrat';
+      font-size: 18px;
+      color: #000;
+      padding: 12px;
+    }
+    .media-upload__input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

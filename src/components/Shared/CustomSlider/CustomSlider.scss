@@ -1,0 +1,30 @@
+.custom-slider {
+  display: flex;
+  width: 100%;
+  .custom-slider__wrapper {
+    margin: 0 auto;
+    .custom-slider__slide {
+      display: none;
+      &.custom-slider__slide--active {
+        display: block;
+      }
+      .custom-slider__image {
+        display: block;
+        object-fit: contain;
+        height: 400px;
+        max-height: 400px;
+        width: 100%;
+      }
+    }
+  }
+  .custom-slider__button {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    color: #000;
+    background: none;
+    padding: 12px;
+    cursor: pointer;
+  }
+}

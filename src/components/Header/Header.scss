@@ -1,0 +1,28 @@
+.header {
+  background-color: #db2d2e;
+  padding: 2px;
+  .header__logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #fff;
+    .header__title {
+      font-family: 'Montserrat';
+      font-size: 24px;
+    }
+  }
+  .header__links {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    .header__links-item {
+      .header__links-logo {
+        width: 48px;
+      }
+    }
+  }
+}

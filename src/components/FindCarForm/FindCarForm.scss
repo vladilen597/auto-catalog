@@ -1,0 +1,39 @@
+.find-car-form {
+  max-width: 768px;
+  margin: 0 auto;
+  .find-car-form__title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .find-car-form__inputs {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #eeeced;
+    padding: 12px;
+    border-radius: 12px;
+  }
+  .find-car-form__group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .find-car-form__submit {
+    margin-top: 24px;
+    width: 100%;
+    padding: 12px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: #333;
+    }
+  }
+}

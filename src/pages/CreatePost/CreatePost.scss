@@ -1,0 +1,41 @@
+.create-post {
+  .create-post__title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .create-post__form-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    .create-post__form-side {
+      padding: 12px;
+      background-color: #eeeced;
+      border-radius: 12px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      .create-post__select-group {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+      }
+    }
+  }
+  .create-post__submit {
+    margin-top: 24px;
+    width: 100%;
+    padding: 12px;
+    background-color: #db2d2e;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    cursor: pointer;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}

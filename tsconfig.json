@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": ["off"]
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

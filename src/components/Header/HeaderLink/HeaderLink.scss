@@ -1,0 +1,12 @@
+.header-link {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  &.header-link--active {
+    font-weight: 700;
+  }
+}

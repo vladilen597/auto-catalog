@@ -1,0 +1,75 @@
+.car-single {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  .car-single__main {
+    width: 100%;
+    .car-single__image {
+      display: block;
+      width: 100%;
+    }
+    .car-single__title {
+      margin-top: 12px;
+      font-family: 'Montserrat';
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.16;
+    }
+    .car-single__vendor-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+      font-family: 'Montserrat';
+      font-size: 24px;
+      color: #858585;
+      .car-single__price {
+        background-color: #db2d2e;
+        color: #fff;
+        border-radius: 24px;
+        padding: 8px 12px;
+      }
+    }
+    .car-single__description {
+      margin-top: 12px;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+  }
+
+  .car-single__specs-wrapper {
+    width: 100%;
+    max-width: 250px;
+    .car-single__specs-title {
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.16;
+    }
+    .car-single__info-wrapper {
+      margin-top: 8px;
+    }
+  }
+  .car-single__contact-link {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border: 1px solid #34abe0;
+    border-radius: 50px;
+    padding: 8px;
+    gap: 12px;
+    text-decoration: none;
+    color: #34abe0;
+    justify-content: center;
+    background-color: #f4fafc;
+    .car-single__contact-icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

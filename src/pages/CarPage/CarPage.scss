@@ -1,0 +1,15 @@
+.car-page__wrapper {
+  display: flex;
+  gap: 24px;
+  .car-page__related {
+    .car-page__related-title {
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .car-page__related-wrapper {
+      margin-top: 8px;
+    }
+  }
+}
